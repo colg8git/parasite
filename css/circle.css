@@ -1,0 +1,64 @@
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+.circle1 {
+    width: 250px;
+    height: 250px;
+    left: 1000px;
+    top: 100px;
+    background-color: rgba(70, 70, 70, 0.1);
+    animation: ball-anim 2.5s ease, ball-fly 4s ease infinite;
+}
+.circle2 {
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 50px;
+    background-color: rgba(70, 70, 70, 0.3);
+    animation: ball-anim 2s ease, ball-fly 2.5s ease infinite;
+}
+.circle3 {
+    width: 250px;
+    height: 250px;
+    left: 300px;
+    top: 500px;
+    background-color: rgba(70, 70, 70, 0.4);
+    animation: ball-anim 2.5s ease, ball-fly 2.6s ease infinite;
+}
+.circle4 {
+    width: 150px;
+    height: 150px;
+    left: 1200px;
+    top: 500px;
+    background-color: rgba(70, 70, 70, 0.3);
+    animation: ball-anim 1.8s ease, ball-fly 2s ease infinite;
+}
+.circle5 {
+    width: 250px;
+    height: 250px;
+    left: 500px;
+    top: 10px;
+    background-color: rgba(70, 70, 70, 0.4);
+    animation: ball-anim 2.5s ease, ball-fly 3s ease infinite;
+}
+@keyframes ball-anim {
+    from {
+        margin-top: -200%;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+@keyframes ball-fly {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 5px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,75 @@
+.square {
+    position: absolute;
+    z-index: 10;
+}
+.square1 {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(70, 70, 70, 0.2);
+    transform: rotate(30deg);
+    left: 300px;
+    top: 150px;
+    animation: square-anim 2.5s ease, square-rotate 25s ease infinite;
+}
+.square2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(70, 70, 70, 0.1);
+    transform: rotate(-10deg);
+    left: 20px;
+    top: 500px;
+    animation: square-anim 2.5s ease, square-rotate 35s ease infinite;
+}
+.square3 {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(70, 70, 70, 0.3);
+    transform: rotate(30deg);
+    left: 700px;
+    top: 650px;
+    animation: square-anim 2.5s ease, square-rotate 25s ease infinite;
+}
+.square4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(70, 70, 70, 0.5);
+    transform: rotate(30deg);
+    left: 1300px;
+    top: 300px;
+    animation: square-anim 2.5s ease, square-rotate 15s ease infinite;
+}
+.square5 {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(70, 70, 70, 0.1);
+    transform: rotate(30deg);
+    left: 1350px;
+    top: 80px;
+    animation: square-anim 2.5s ease, square-rotate 25s ease infinite;
+}
+.square6 {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(70, 70, 70, 0.3);
+    transform: rotate(30deg);
+    left: 850px;
+    top: 50px;
+    animation: square-anim 2.5s ease, square-rotate 20s ease infinite;
+}
+@keyframes square-anim {
+    from {
+        margin-top: -200%;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+@keyframes square-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* ----------------------------------------------- */

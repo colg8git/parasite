@@ -1,0 +1,10 @@
+.creator {
+    color: #5c5c5c;
+    font-family: var(--primary-font);
+}
+.creator span {
+    /* background: -webkit-linear-gradient(45deg, #6c6c6c, #b7b5b5, #4967ef, #4361EE, #4CC9F0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    color: #858383;
+}
